@@ -1,0 +1,349 @@
+/* Importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Kaisei+Decol&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* Global Styles */
+body {
+  font-family: "Kaisei Decol", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Header Styles */
+.header {
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links ul {
+  display: inline;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.links a:hover {
+  color: #555;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icons ul {
+  display: inline;
+  margin: 0 10px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+
+.icons a:hover {
+  color: #555;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.title a {
+  text-decoration: none;
+  color: #000;
+}
+
+.title a:hover {
+  color: #414141;
+  text-decoration: none;
+}
+
+.header-image {
+  width: calc(100% - 200px);
+  margin: 0 20px;
+  height: auto;
+}
+
+.homepage-links {
+  text-align: center;
+  font-size: 24px;
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.homepage-links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.homepage-links a:hover {
+  color: #555;
+}
+
+.homepage-links span {
+  color: #000;
+  padding: 0 10px;
+}
+
+hr {
+  border: 0.5px solid #000;
+  width: calc(100% - 60px);
+}
+
+/* Shop Category */
+.shop-category {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 50px;
+    font-size: 18px;
+    color: #000;
+}
+
+.shop-category h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.shop-category a {
+   text-decoration: none;
+  color: #000;
+}
+
+.shop-category a:hover {
+  color: #555;
+}
+
+/* Product Info Section */
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 100px;
+    align-items: flex-start;
+}
+
+.left-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.left-wrapper img {
+    max-width: 80%;
+    height: auto;
+}
+
+.right-wrapper {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Crimson Text';
+    font-size: 18px;
+}
+
+.right-wrapper h3 {
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+}
+
+/* "reviews [0] */
+.right-wrapper h3 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-wrapper h3 a:hover {
+    color: #444;
+}
+
+.right-wrapper h2 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+    margin: 0;
+}
+
+.right-wrapper h2 span {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+}
+
+.star-ratings p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.right-wrapper ul {
+    margin-top: 0px;
+}
+
+.right-wrapper button {
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono';
+}
+
+.right-wrapper button:hover {
+    background-color: #444;
+}
+
+/* Reviews Section */
+.show-reviews {
+    padding: 20px 50px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.review-nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.review-nav a:hover {
+  color: #555;
+}
+
+.product-reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.product-reviews .review {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product-reviews .review .reviewer {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto Mono';
+}
+
+.product-reviews .review .date {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+    font-family: 'Roboto Mono';
+}
+
+.product-reviews .review .text {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+  padding: 100px;
+  text-align: center;
+  font-family: "Kaisei Decol", sans-serif;
+}
+
+.footer-info h3 {
+  font-size: 18px;
+  margin: 50px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-info input {
+  padding: 15px;
+  font-size: 16px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Kaisei Decol", sans-serif;
+}
+
+.user-info button {
+  padding: 15px 20px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Kaisei Decol", sans-serif;
+}
+
+.user-info button:hover {
+  background-color: #444;
+}
+
+.footer-icons {
+  margin-top: 50px; /* Added space above the icons */
+}
+
+.footer-icons ul {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-icons a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+
+.footer-icons a:hover {
+  color: #555;
+}

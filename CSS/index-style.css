@@ -1,0 +1,210 @@
+/* Importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Kaisei+Decol&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* Global Styles */
+body {
+  font-family: "Kaisei Decol", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Header Styles */
+.header {
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links ul {
+  display: inline;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.links a:hover {
+  color: #555;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icons ul {
+  display: inline;
+  margin: 0 10px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+
+.icons a:hover {
+  color: #555;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.title a {
+  text-decoration: none;
+  color: #000;
+}
+
+.title a:hover {
+  color: #414141;
+  text-decoration: none;
+}
+
+.header-image {
+  width: calc(100% - 200px);
+  margin: 0 20px;
+  height: auto;
+}
+
+.homepage-links {
+  text-align: center;
+  font-size: 24px;
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.homepage-links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.homepage-links a:hover {
+  color: #555;
+}
+
+.homepage-links span {
+  color: #000;
+  padding: 0 10px;
+}
+
+hr {
+  border: 0.5px solid #000;
+  width: calc(100% - 60px);
+}
+
+/* Main Section Styles */
+.product-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.group {
+  text-align: center;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.clothing-item {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+  margin: 5px;
+  line-height: 0.2;
+  text-align: left;
+}
+
+.description span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Footer Styles */
+footer {
+  padding: 100px;
+  text-align: center;
+  font-family: "Kaisei Decol", sans-serif;
+}
+
+.footer-info h3 {
+  font-size: 18px;
+  margin: 50px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-info input {
+  padding: 15px;
+  font-size: 16px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Kaisei Decol", sans-serif;
+}
+
+.user-info button {
+  padding: 15px 20px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Kaisei Decol", sans-serif;
+}
+
+.user-info button:hover {
+  background-color: #444;
+}
+
+.footer-icons {
+  margin-top: 50px; /* Added space above the icons */
+}
+
+.footer-icons ul {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-icons a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+
+.footer-icons a:hover {
+  color: #555;
+}
