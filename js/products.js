@@ -6,7 +6,7 @@ window.onload = () => {
   displayClothes(clothingItems);
 };
 
-//function to display cars
+//function to display products
 function displayClothes(clothes) {
   const itemListings = document.getElementById("itemListings");
   itemListings.innerHTML = "";
@@ -16,9 +16,7 @@ function displayClothes(clothes) {
     itemDiv.classList.add("clothing-item");
 
     itemDiv.innerHTML = `
-      <a href="${productLink}">
-        <img src="${item.image}" alt="${item.itemName}">
-      </a>
+      <img src="${item.image}" alt="${item.itemName}">
       <div class="description">
         <p>${item.itemName}</p>
         <p>$${item.price.toFixed(2)}</p>
