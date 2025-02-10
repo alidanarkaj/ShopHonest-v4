@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopHonest</title>
+    <!-- importing icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="../CSS/products.css" />
+    <!-- js links -->
+    <script type="module" src="../js/clothingItems.js"></script>
+    <script type="module" src="../js/products.js"></script>
+    <!-- browser will treat the .js files as modules -->
+    <!-- automatically deferred when html doc has been fully parsed -->
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="navigation">
+        <h1 class="title"><a href="#">ShopHonest</a></h1>
+        <div class="links">
+          <ul>
+            <a href="#">Products</a>
+          </ul>
+          <ul>
+            <a href="#">About</a>
+          </ul>
+          <ul>
+            <a href="#">Contact</a>
+          </ul>
+        </div>
+        <div class="icons">
+          <ul>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+          </ul>
+          <ul>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+          </ul>
+          <ul>
+            <a href="#"><i class="bx bx-shopping-bag"></i></a>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+    </header>
+
+    <!-- displays the images on initial load -->
+    <div id="itemListings" class="item-listings"></div>
+  </body>
+
+  <footer>
+    <hr />
+    <div class="footer-info">
+      <h3>Enter your email to receive 15% off your first order.</h3>
+    </div>
+    <!-- user email input -->
+    <div class="user-info">
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="shophonest@ou.com"
+        />
+      </form>
+      <button type="submit">Sign Up</button>
+    </div>
+    <!-- insta/twit icons -->
+    <div class="footer-icons">
+      <ul>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+      </ul>
+      <ul>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+      </ul>
+    </div>
+  </footer>
+</html>

@@ -92,7 +92,7 @@ hr {
 }
 
 /* Main Section Styles */
-.product-images {
+.item-listings {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -100,28 +100,26 @@ hr {
   padding: 40px;
 }
 
-.group {
+/* Individual product container */
+.clothing-item {
   text-align: center;
   width: 300px;
   margin-bottom: 20px;
 }
 
-.clothing-item {
+/* Ensure images fill their container */
+.clothing-item img {
   width: 100%;
   height: auto;
 }
 
-.description {
+/* Style the description text */
+.clothing-item .description {
   font-family: "Crimson Text", serif;
   font-size: 18px;
   margin: 5px;
   line-height: 0.2;
   text-align: left;
-}
-
-.description span {
-  text-decoration: line-through;
-  color: #888;
 }
 
 /* Footer Styles */
